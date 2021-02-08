@@ -4,7 +4,7 @@ This plugin contains retargeting assets for converting animation output from RAD
 
 ## Initial Setup Instructions
 
-To install, download the latest release for your engine version on the right side bar and unzip to your project or engine Marketplace folder, then enable the plugin in your project.
+To install, download the latest release for your engine version from the `Releases` (right hand sidebar). It should be labeled `UnrealLiveLinkRemapPlugin.zip`. Unzip to your project or engine Marketplace folder, then enable the plugin in your project.
 
 After starting the Live Link stream from Radical Studio, open the UE4 editor and go to Window -> Live Link. Go to Source -> Message Bus Source -> select the `RadLiveLink` source. There will be a random alphanumeric string appended to the name, to differentiate between multiple Live Link sources on the network (e.g. other instances of Radical Studio). You can now close this window.
 
