@@ -1,30 +1,33 @@
 {
-	"FileVersion": 3,
-	"Version": 1,
-	"VersionName": "1.0",
-	"FriendlyName": "Radical Live Link Remap",
-	"Description": "Remaps live RADiCAL mocap data to Epic skeleton.",
-	"Category": "Other",
-	"CreatedBy": "RADiCAL Solutions, LLC",
-	"CreatedByURL": "https://getrad.co/",
-	"DocsURL": "",
-	"MarketplaceURL": "",
-	"SupportURL": "",
-	"CanContainContent": true,
-	"IsBetaVersion": false,
-	"IsExperimentalVersion": false,
-	"Installed": false,
-	"Modules": [
-		{
-			"Name": "UnrealLiveLinkRemapPlugin",
-			"Type": "Runtime",
-			"LoadingPhase": "Default"
-		}
-	],
-	"Plugins": [
-		{
-			"Name": "LiveLink",
-			"Enabled": true
-		}
-	]
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "RADiCAL Live Link Remap",
+  "Description": "Remaps live RADiCAL mocap data to Epic skeleton.",
+  "Category": "Other",
+  "CreatedBy": "RADiCAL Solutions, LLC",
+  "CreatedByURL": "https://getrad.co/",
+  "DocsURL": "",
+  "MarketplaceURL": "",
+  "SupportURL": "",
+  "CanContainContent": true,
+  "IsBetaVersion": false,
+  "IsExperimentalVersion": false,
+  "Installed": false,
+  "Modules": [
+    {
+      "Name": "UnrealLiveLinkRemapPlugin",
+      "Type": "Runtime",
+      "LoadingPhase": "Default",
+      "BlacklistPlatforms": [
+        "HoloLens"
+      ]
+    }
+  ],
+  "Plugins": [
+    {
+      "Name": "LiveLink",
+      "Enabled": true
+    }
+  ]
 }
